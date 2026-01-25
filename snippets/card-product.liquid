@@ -113,6 +113,11 @@
             Limited Edition
           </p>
           {%- endif -%}
+          {%- if card_product.tags contains 'Original' -%}
+          <p class="original">
+            Original&nbsp;painting
+          </p>
+          {%- endif -%}
             <h3
               class="card__heading"
               {% if card_product.featured_media == null and settings.card_style == 'standard' %}

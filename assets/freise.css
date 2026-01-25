@@ -32,3 +32,15 @@
   font-family: var(--font-heading-family);
   font-weight: bold;
 }
+
+.original {
+  text-align: left;
+  display: inline-block;
+  padding: 0.4em 1.8em;
+  margin: 0 0 1em;
+  font-size: 1.2rem;
+  background: #242424;
+  color: white;
+  font-family: var(--font-heading-family);
+  font-weight: bold;
+}
