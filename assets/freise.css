@@ -44,3 +44,8 @@
   font-family: var(--font-heading-family);
   font-weight: bold;
 }
+
+.collection-hero__title {
+  font-size: 5rem;
+  font-weight: bold;
+}
