@@ -1,1 +1,7 @@
-  @import url("https://use.typekit.net/kxk7hvg.css");
+@import url("https://use.typekit.net/kxk7hvg.css");
+
+.card__information .price,
+.card__information .card__heading {
+  font-size: 1.4rem;
+}
+
