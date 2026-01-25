@@ -220,7 +220,7 @@
       "settings": {
         "collection": "wir-sind-ostwestfalen",
         "products_to_show": 25,
-        "title": "Wir sind Ostwestfalen",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -249,7 +249,7 @@
       "settings": {
         "collection": "zauberspruche",
         "products_to_show": 25,
-        "title": "Zaubersprüche – with Pauline Füg",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -278,7 +278,7 @@
       "settings": {
         "collection": "watercolour-art",
         "products_to_show": 25,
-        "title": "Watercolour Art",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
