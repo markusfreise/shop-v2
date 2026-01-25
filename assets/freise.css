@@ -1,7 +1,21 @@
 @import url("https://use.typekit.net/kxk7hvg.css");
 
-.card__information .price,
+.card__content.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  .card__information {
+    width: 61%;
+  }
+}
 .card__information .card__heading {
-  font-size: 1.4rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: left;
 }
 
+.card__information .price {
+  font-size: 1.2rem;
+  font-family: var(--font-heading-family);
+  text-align: left;
+}
