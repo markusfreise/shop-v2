@@ -109,33 +109,32 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_w3LP7r": {
+    "featured-collection": {
       "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "wir-sind-ostwestfalen",
+        "collection": "art-featured-on-front-page",
         "products_to_show": 25,
-        "title": "Wir sind Ostwestfalen",
+        "title": "New and featured",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 3,
+        "columns_desktop": 5,
         "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": false,
-        "view_all_style": "solid",
-        "color_scheme": "",
+        "view_all_style": "outline",
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "standard",
+        "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 28,
+        "padding_bottom": 0
       }
     },
     "image-with-text": {
@@ -215,22 +214,23 @@
         "padding_bottom": 56
       }
     },
-    "featured-collection": {
+    "featured_collection_w3LP7r": {
       "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "art-featured-on-front-page",
+        "collection": "wir-sind-ostwestfalen",
         "products_to_show": 25,
-        "title": "New and featured",
+        "title": "Wir sind Ostwestfalen",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 5,
+        "columns_desktop": 3,
         "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": false,
-        "view_all_style": "outline",
-        "color_scheme": "scheme-1",
+        "view_all_style": "solid",
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -239,8 +239,8 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection_iNGYHg": {
@@ -306,10 +306,10 @@
     "rich-text",
     "rich-text-1",
     "collection_list_RNzQmq",
-    "featured_collection_w3LP7r",
+    "featured-collection",
     "image-with-text",
     "image-with-text-1",
-    "featured-collection",
+    "featured_collection_w3LP7r",
     "featured_collection_iNGYHg",
     "featured_collection_KadcX6"
   ]
