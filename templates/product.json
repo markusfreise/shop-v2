@@ -21,7 +21,7 @@
         "text_GXqEdJ": {
           "type": "text",
           "settings": {
-            "text": "Mehr erfaahren …",
+            "text": "<a href=\"#desc\" title=\"#desc\">Learn more …</a>",
             "text_style": "body"
           }
         },
