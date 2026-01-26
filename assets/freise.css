@@ -8,12 +8,9 @@
 }
 
 @media(min-width: 1024px){
-.card__content.bottom {
-    .card__information {
+  .card__content.bottom .card__information {
     width: 61%;
   }
-  }
-
 }
 .card__information .card__heading {
   font-weight: bold;
