@@ -12,19 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "custom_liquid_HYYxeW": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a name=\"desc\"></a>"
-          }
-        },
-        "text_GXqEdJ": {
-          "type": "text",
-          "settings": {
-            "text": "<a href=\"#desc\" title=\"#desc\">Learn more …</a>",
-            "text_style": "body"
-          }
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -35,6 +22,13 @@
         "title": {
           "type": "title",
           "settings": {}
+        },
+        "text_GXqEdJ": {
+          "type": "text",
+          "settings": {
+            "text": "<a href=\"#desc\" title=\"#desc\">Learn more …</a>",
+            "text_style": "body"
+          }
         },
         "text_fjPTtm": {
           "type": "text",
@@ -65,21 +59,27 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_HYYxeW": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a name=\"desc\"></a>"
+          }
+        },
         "description_7baApa": {
           "type": "description",
           "settings": {}
         }
       },
       "block_order": [
-        "custom_liquid_HYYxeW",
-        "text_GXqEdJ",
         "vendor",
         "title",
+        "text_GXqEdJ",
         "text_fjPTtm",
         "variant_picker",
         "price",
         "quantity_selector",
         "buy_buttons",
+        "custom_liquid_HYYxeW",
         "description_7baApa"
       ],
       "custom_css": [
