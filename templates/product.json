@@ -62,7 +62,7 @@
         "custom_liquid_HYYxeW": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a name=\"desc\"></a>"
+            "custom_liquid": "<a name=\"desc\" id=\"desc\"></a>"
           }
         },
         "description_7baApa": {
