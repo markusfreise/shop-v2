@@ -28,7 +28,7 @@
           "settings": {
             "heading": "Beschreibung",
             "icon": "none",
-            "content": "<p>Hello</p>",
+            "content": "<p>Hello</p>{{ block.settings.page.content }}",
             "page": ""
           }
         },
