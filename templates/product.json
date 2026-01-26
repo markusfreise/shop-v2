@@ -12,6 +12,19 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_HYYxeW": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a name=\"desc\"></a>"
+          }
+        },
+        "text_GXqEdJ": {
+          "type": "text",
+          "settings": {
+            "text": "Mehr erfaahren …",
+            "text_style": "body"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -22,15 +35,6 @@
         "title": {
           "type": "title",
           "settings": {}
-        },
-        "collapsible_tab_yBEGJ3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Beschreibung",
-            "icon": "none",
-            "content": "<p>Hello</p>{{ block.settings.page.content }}",
-            "page": ""
-          }
         },
         "text_fjPTtm": {
           "type": "text",
@@ -60,17 +64,23 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
+        },
+        "description_7baApa": {
+          "type": "description",
+          "settings": {}
         }
       },
       "block_order": [
+        "custom_liquid_HYYxeW",
+        "text_GXqEdJ",
         "vendor",
         "title",
-        "collapsible_tab_yBEGJ3",
         "text_fjPTtm",
         "variant_picker",
         "price",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "description_7baApa"
       ],
       "custom_css": [
         ".product-form__input.product-form__input--dropdown label {display: none;}",
