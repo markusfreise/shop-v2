@@ -5,6 +5,9 @@
   justify-content: center;
   align-items: flex-start;
   text-align: left;
+  .card__information {
+    width: 100%;
+  }
 }
 
 @media(min-width: 1024px){
