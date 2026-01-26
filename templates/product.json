@@ -23,10 +23,6 @@
           "type": "title",
           "settings": {}
         },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
         "text_fjPTtm": {
           "type": "text",
           "settings": {
@@ -40,6 +36,10 @@
             "picker_type": "dropdown",
             "swatch_shape": "circle"
           }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -60,16 +60,17 @@
       "block_order": [
         "vendor",
         "title",
-        "price",
         "text_fjPTtm",
         "variant_picker",
+        "price",
         "quantity_selector",
         "buy_buttons",
         "description"
       ],
       "custom_css": [
         ".product-form__input.product-form__input--dropdown label {display: none;}",
-        "select {font-size: 1.5rem; font-family: Futura, sans-serif; border-color: #242424;}"
+        "select {font-size: 1.5rem; font-family: Futura, sans-serif; border-color: #242424;}",
+        ".price {font-size: 1.8em; }"
       ],
       "settings": {
         "enable_sticky_info": true,
