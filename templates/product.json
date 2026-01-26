@@ -12,19 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "collapsible_tab_yBEGJ3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "none",
-            "content": "{{ block.settings.page.content }}",
-            "page": ""
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -35,6 +22,15 @@
         "title": {
           "type": "title",
           "settings": {}
+        },
+        "collapsible_tab_yBEGJ3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Beschreibung",
+            "icon": "none",
+            "content": "{{ block.settings.page.content }}",
+            "page": ""
+          }
         },
         "text_fjPTtm": {
           "type": "text",
@@ -67,10 +63,9 @@
         }
       },
       "block_order": [
-        "collapsible_tab_yBEGJ3",
-        "description",
         "vendor",
         "title",
+        "collapsible_tab_yBEGJ3",
         "text_fjPTtm",
         "variant_picker",
         "price",
