@@ -67,6 +67,9 @@
         "buy_buttons",
         "description"
       ],
+      "custom_css": [
+        ".product-form__input.product-form__input--dropdown label {display: none;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
