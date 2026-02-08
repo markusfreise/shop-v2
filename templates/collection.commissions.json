@@ -79,11 +79,60 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "image_with_text_cKdCtN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nFH8gW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hand made classic art",
+            "heading_size": "h1"
+          }
+        },
+        "text_GwePJT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Treat yourself or a loved one with a one time, unique and hand made piece of art from a real artistt. I am working with classic mediums like watercolour, acrylics or oil (on request) on paper or canvas.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_UXML88": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_nFH8gW",
+        "text_GwePJT",
+        "button_UXML88"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Portrait_5b908470-8820-4169-aa5f-b9ed754695d1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "rich_text_LhNiTz"
+    "rich_text_LhNiTz",
+    "image_with_text_cKdCtN"
   ]
 }
