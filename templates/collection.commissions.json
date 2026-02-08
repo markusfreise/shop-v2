@@ -43,7 +43,7 @@
         "heading_m6pMep": {
           "type": "heading",
           "settings": {
-            "heading": "Nude Art Commissions",
+            "heading": "Looking for „Nude Art Commissions“!?",
             "heading_size": "h1"
           }
         },
@@ -56,8 +56,8 @@
         "button_N7wazb": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Visit my etsy Store",
+            "button_link": "https://www.etsy.com/de-en/listing/4316990129/custom-nude-painting-from-photo-great?ref=shop_home_active_2&logging_key=459af0a9b537480ef5e19026f49526ed73e5ccd0%3A4316990129",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -74,7 +74,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
