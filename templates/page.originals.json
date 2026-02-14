@@ -45,6 +45,53 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_y6mYGa": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hJTLig": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get your own original",
+            "heading_size": "h1"
+          }
+        },
+        "text_XYYQmf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Would you like to get even more \"original\"? Than commission your very own painting. Be it pencil, watercolour or acrylics. Choose between portrait, comic poster or whatever is on your mind.</p><p>Find all your options on my commissions page.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FAayaw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Go to \"Commission\"",
+            "button_link": "shopify://collections/commissions",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hJTLig",
+        "text_XYYQmf",
+        "button_FAayaw"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_EbwMXX": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -78,6 +125,7 @@
   "order": [
     "main",
     "featured_collection_d8TYxF",
+    "image_with_text_y6mYGa",
     "featured_collection_EbwMXX"
   ]
 }
