@@ -53,7 +53,7 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-2",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -65,11 +65,60 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_YK9KYU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8HFFwR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get your own original.",
+            "heading_size": "h1"
+          }
+        },
+        "text_yMemcg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Would you like to get even more \"original\"? Than commission your very own painting. Be it pencil, watercolour or acrylics. Choose between portrait, comic poster or whatever is on your mind.</p><p>Find all your options on my commissions page.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_WKj7i4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Go to commissions",
+            "button_link": "shopify://collections/commissions",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8HFFwR",
+        "text_yMemcg",
+        "button_WKj7i4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/SON05333.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "featured_collection_m3cW6P"
+    "featured_collection_m3cW6P",
+    "image_with_text_YK9KYU"
   ]
 }
