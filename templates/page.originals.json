@@ -16,6 +16,54 @@
         "padding_bottom": 28
       }
     },
+    "image_with_text_ijnXAT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_cxXKE9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Original. Handmade. Affordable.",
+            "heading_size": "h1"
+          }
+        },
+        "text_f47NhE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Browse through a collection of my original artwork. In various sizes, all kinds of techniques and styles from fine art through pop art and comic art. I am sure, there is something for everyone.</p><p>It is my dearest desire to offer you original art from watercolour to acrylics and mixed media that is not only unique or unseen. As art should be inclusive for everybody, I also work in a price range that reflects the value of the artwork while still being affordable.</p><p>If you find something you like and that is nonetheless out of your budget please also explore my prints. Or reach out and let's talk.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_gfhi4f": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "shopify://collections/commissions",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cxXKE9",
+        "text_f47NhE",
+        "button_gfhi4f"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/SON05333.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_d8TYxF": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -78,16 +126,17 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/SON05333.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -104,9 +153,9 @@
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 4,
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "color_scheme": "",
         "image_ratio": "adapt",
@@ -120,12 +169,62 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_XGyeMF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6eiDDM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visit my private gallery",
+            "heading_size": "h1"
+          }
+        },
+        "text_L7Xcjt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You would like to see my work for real? Then visit my private exhibition in Bielefeld. There you can take a look at most of the original work. </p><p>Or browse through boxes of prints and work not showcased in my shop. And as this is a private exhibition and not a random gallery, me – the artist – is always present to chat with.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_tzTMXr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book a date",
+            "button_link": "mailto:markus@freise.de",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6eiDDM",
+        "text_L7Xcjt",
+        "button_tzTMXr"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/SON05333.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
+    "image_with_text_ijnXAT",
     "featured_collection_d8TYxF",
     "image_with_text_y6mYGa",
-    "featured_collection_EbwMXX"
+    "featured_collection_EbwMXX",
+    "image_with_text_XGyeMF"
   ]
 }
