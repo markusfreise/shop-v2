@@ -37,38 +37,6 @@
         "padding_bottom": 60
       }
     },
-    "featured_collection_m3cW6P": {
-      "type": "featured-collection",
-      "custom_css": [
-        "{margin-bottom: 0;}"
-      ],
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "available-originals-copy",
-        "products_to_show": 4,
-        "title": "What you have missed",
-        "heading_size": "h0",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_YK9KYU": {
       "type": "image-with-text",
       "blocks": {
@@ -101,7 +69,7 @@
         "button_WKj7i4"
       ],
       "custom_css": [
-        "{margin-top: 0}"
+        "{margin-top: 0;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -119,12 +87,44 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_collection_m3cW6P": {
+      "type": "featured-collection",
+      "custom_css": [
+        "{margin-bottom: 0;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "available-originals-copy",
+        "products_to_show": 4,
+        "title": "What you have missed",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "featured_collection_m3cW6P",
-    "image_with_text_YK9KYU"
+    "image_with_text_YK9KYU",
+    "featured_collection_m3cW6P"
   ]
 }
