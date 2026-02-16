@@ -26,7 +26,7 @@
         "custom_liquid_bGjWkx": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.width.value %}\n<p>\n  {{ product.metafields.custom.width.value }}\n  x\n  {{ product.metafields.custom.height.value }}\n  cm\n  (\n    {{ product.metafields.custom.width.value\n      | times: 0.3937008\n      | round: 1\n    }}\n    x\n    {{ product.metafields.custom.height.value\n      | times: 0.3937008\n      | round: 1\n    }}\n    in\n  )\n<br>{% endif %}\n{% if product.metafields.custom.custom.surface_paper.value %}\n{{ product.metafields.custom.custom.surface_paper.value }}\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.width.value %}\n  <p>\n    {{ product.metafields.custom.width.value.value }}\n    x\n    {{ product.metafields.custom.height.value.value }}\n    cm\n    (\n      {{ product.metafields.custom.width.value.value\n        | times: 0.3937008\n        | round: 1\n      }}\n      x\n      {{ product.metafields.custom.height.value.value\n        | times: 0.3937008\n        | round: 1\n      }}\n      in\n    )\n  </p>\n{% endif %}"
           }
         },
         "custom_liquid_zrmVw8": {
