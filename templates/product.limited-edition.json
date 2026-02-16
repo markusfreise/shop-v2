@@ -32,7 +32,7 @@
         "custom_liquid_zrmVw8": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% assign current_variant = product.selected_or_first_available_variant %}\n\n<div class=\"ff-limited\"><p>Limited Collectors Edition</p>\n<p>Only {{ current_variant.inventory_quantity }} of {{ metafields.product.custom.limited_edition_size }} left</p>\n<p>See description for details</p>\n</div>"
+            "custom_liquid": "{% assign current_variant = product.selected_or_first_available_variant %}\n\n<div class=\"ff-limited\"><p>Limited Collectors Edition</p>\n<p>Only {{ current_variant.inventory_quantity }} of {{ product.metafields.custom.limited_edition_size }} left</p>\n<p>See description for details</p>\n</div>"
           }
         },
         "price": {
