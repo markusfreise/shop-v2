@@ -26,13 +26,13 @@
         "custom_liquid_bGjWkx": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.width.value %}\n  <p>\n    {{ product.metafields.custom.width.value.value }}\n    x\n    {{ product.metafields.custom.height.value.value }}\n    cm\n    (\n      {{ product.metafields.custom.width.value.value\n        | times: 0.3937008\n        | round: 1\n      }}\n      x\n      {{ product.metafields.custom.height.value.value\n        | times: 0.3937008\n        | round: 1\n      }}\n      in\n    )\n  </p>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.width_cm.value %}\n  <p>\n    {{ product.metafields.custom.width_cm.value}}\n    x\n    {{ product.metafields.custom.height_cm.value}}\n    cm\n    (\n      {{ product.metafields.custom.width_cm.value\n        | times: 0.3937008\n        | round: 1\n      }}\n      x\n      {{ product.metafields.custom.height_cm.value\n        | times: 0.3937008\n        | round: 1\n      }}\n      in\n    )\n  </p>\n{% endif %}"
           }
         },
         "custom_liquid_zrmVw8": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% assign current_variant = product.selected_or_first_available_variant %}\n\n<div class=\"ff-limited\"><p>Limited Collectors Edition</p>\n<p>Only {{ current_variant.inventory_quantity }} of 10 left</p>\n<p>See description for details</p>\n</div>"
+            "custom_liquid": "{% assign current_variant = product.selected_or_first_available_variant %}\n\n<div class=\"ff-limited\"><p>Limited Collectors Edition</p>\n<p>Only {{ current_variant.inventory_quantity }} of {{ metafields.product.custom.limited_edition_size }} left</p>\n<p>See description for details</p>\n</div>"
           }
         },
         "price": {
