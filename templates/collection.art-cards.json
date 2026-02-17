@@ -28,6 +28,9 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        "h1 {font-size: 2em;}"
+      ],
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
