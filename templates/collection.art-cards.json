@@ -66,8 +66,57 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_tGHFKr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QmwHi7": {
+          "type": "heading",
+          "settings": {
+            "heading": "More Collectible Art Cards",
+            "heading_size": "h1"
+          }
+        },
+        "text_3RBMeQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All my collectible Art Cards can also be found on Etsy. Including some exclusive motives I cannot sell in this shop due to guidelines by Google and Meta.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_VcTMkT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Visit my Etsy shop",
+            "button_link": "https://www.etsy.com/shop/collectibleartcards?ref=shopify",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QmwHi7",
+        "text_3RBMeQ",
+        "button_VcTMkT"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/SON07730.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 36,
         "columns_desktop": 4,
@@ -91,6 +140,7 @@
     "image_banner_BB88hC",
     "banner",
     "featured_collection_AxKzHN",
+    "image_with_text_tGHFKr",
     "product-grid"
   ]
 }
