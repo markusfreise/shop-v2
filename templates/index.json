@@ -44,10 +44,17 @@
             "heading": "<strong>Fine Art . Comic . Pop Culture</strong>",
             "heading_size": "h1"
           }
+        },
+        "text_V6P4Tm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Because buying and collecting art should be fun. Not expensive.</strong></p>"
+          }
         }
       },
       "block_order": [
-        "heading_nkgtU4"
+        "heading_nkgtU4",
+        "text_V6P4Tm"
       ],
       "custom_css": [
         "{margin-top: 0; padding-top: 0; margin-bottom: 1.5em;}"
@@ -160,7 +167,6 @@
         "text_dpBYxX"
       ],
       "settings": {
-        "image": "shopify://shop_images/SON08897.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -199,7 +205,6 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_0864.jpg",
         "height": "small",
         "desktop_image_width": "large",
         "layout": "image_first",
